@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-radius {
+display: flex;
+align-content: center;
+align-items: center;
+justify-content: space-between;
+height: 112px;
+background-color: #cd2028;
+padding: 0 3.3vw;
+border-radius: 0 0 0 48px;}
+
+
+.header-text{
+font-family: IntroBold,Helvetica Neue,Helvetica,Arial,sans-serif;
+font-size: 48px;
+color: #fff;
+letter-spacing: 0;
+}

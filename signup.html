@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+<div class="background">
+
+    <div class="container">
+        <h2>Register</h2>
+        <form action="php/signup.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="mobile">Mobile No.:</label><br>
+            <input type="number" id="mobile" name="mobile" maxlength="10"><br>
+            <label for="roll">Roll No./Id:</label><br>
+            <input type="number" id="roll" name="roll"><br>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="password">Password:</label><br>
+            <input type="text" id="password" name="password"><br><br>
+            <label for="cpassword">Confirm Password:</label><br>
+            <input type="text" id="cpassword" name="cpassword"><br><br>
+            <input type="submit" value="Sign Up">
+
+        </form>
+    </div>
+</div>
+</body>
+</html>

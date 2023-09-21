@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.39);
+    background-image: url(newbackground.jpeg);
+   
+    background-position: center;
+    background-size: cover;
+}
+
+.background{
+display: flex;
+justify-content: center;
+width: 600px;
+height: 650px;
+border: 0.5px solid rgb(187, 199, 82);
+border-radius: 10px;
+
+background: transparent;
+box-shadow: rgba(0, 0, 0, 0.555) 0px 3px 8px;
+
+}
+
+.container {
+    width: 300px;
+    height: 350px;
+    
+    
+    border-radius: 16px;
+
+
+}
+
+input{
+    height: 30px;
+    width: 95%;
+    padding: 0 30px 0 10px ;
+    background-color: transparent;
+    outline: transparent;
+    border: 1px solid rgb(187, 199, 82);
+    border-radius: 20px;
+    font-size: 16px;
+    color: rgb(248, 248, 248);
+}
+
+
+
+label{
+    color: white;
+}
+
+form{
+    text-align: center;
+   
+    position: relative;
+    margin: 30px 0;
+    font-size: 25px;
+}
+
+h2 {
+    margin-top: 19px;
+    margin-left: 55px;
+    color: #fefff5b0 ;
+    font-size: 40px;
+    
+
+}
+
+input[type=submit] {
+    color: white;
+    background-color: rgb(58, 117, 61);
+}
+
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.404);
+}
